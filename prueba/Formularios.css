@@ -1,0 +1,42 @@
+
+body{
+    overflow-x: hidden;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: blanchedalmond;
+
+}
+.container{
+    background-position: center;
+    
+    
+}
+.formula{
+    max-width: 50em;
+    padding: 1.0em;
+    margin: 0 auto;
+    align-content: center;
+    background-color: whitesmoke;
+    font-weight:bold;
+    border-radius:0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(247, 2, 235, 0.808)
+}
+footer{
+    justify-content: center;
+    background-color:black;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+h2{
+    text-align: center;
+}
+
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}

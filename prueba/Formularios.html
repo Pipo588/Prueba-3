@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ContactoS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="Formularios.js"></script>
+    <link rel="stylesheet" href="Formularios.css">
+    
+    <link rel="icon" href="Imagenes/musica.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="Imagenes/musica.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">Electro Music</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="PaginaPrincipal.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Historia de la Institucíon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nuestros Auspiciadores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tienda Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Formularios.html">Formulario para Trabajar con Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+<section class="d-flex justify-content-center">
+    <div class="container-fluid d-flex justify-content-center">
+        
+<form action="" method="post" class="formula">
+    <h2>Has Tu Pedido</h2>
+    <div class="procesar.html" method="post" id="RegistroCliente">
+        <div class="col-xl-12 col-m-6">
+            <div class="col-xl-12 col-m-6">
+                <label for="Rut">RUN</label><br>
+                <input type="text" class="form-control"id="Rut" name="Rut" placeholder="Ingrese Run : Ej(12345678-9)" minlength="9" maxlength="10" required>
+            </div>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="txt_nombre" id="nombre" placeholder="Inserte Un Nombre" required>
+
+            <label for="Apellido">Apellido</label>
+            <input type="text" class="form-control" name="txt_apellido" placeholder=" Inserte Apellido" id="Apellido" required>
+
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="txt_email" id="email" placeholder="@Email" required>
+
+            <label for="phone">Ingrese Numero de telefono:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="912345678" minlength="9" maxlength="9" required><br>
+
+            <label for=""></label>
+            <label for="">Genero</label> <br>
+            <input type="radio" class="form-check-input" name="rbt_genero" id="rbt_genero" value="M" required>
+            <label for="" class="form-check-label">Masculino</label>
+            <input type="radio" class="form-check-input" name="rbt_genero" id="rbt_genero" value="F" required>
+            <label for="" class="form-check-label">Femenino</label><br>
+
+            <label for="">Comentarios</label>
+            <textarea class="form-control" name="" id="" cols="30" rows="5"></textarea>
+        </div>
+        <div class="col-xs-12">
+            <button type="submit" class="btn btn-danger" onclick="validar()">Enviar</button>
+            <input type="reset" class="btn btn-primary" value="Limpiar Controles">
+        </div>
+    </div>
+</form>
+</section>
+<div class="row g-5">
+
+</div>
+    <br>
+    <br>
+    <footer>
+        <div class="container-fluid">
+    
+          <div class="row p-5 bg-secondary text-while">
+    
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h3">Links</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5" mb-3>Videos Famosos</p>
+              <div class="mb-2">
+                <a class="text-black text-decoration-none" href="https://www.youtube.com/watch?v=3BDGpDow2D4&ab_channel=KartelMusic">Eventos Organizados</a>
+    
+            </div>
+            <div class="mb-2">
+              <a class="text-black text-decoration-none" href="https://www.youtube.com/watch?v=xu6qGctOAYs&ab_channel=ExploraPlanet">Historia de los Instrumentos</a>
+    
+            </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <p class="h5" mb-3>Redes Sociales</p>
+              <div class="mb-2">
+               <p><img src="Imagenes/google-free-icon-font.png" width="30" height="30">Elblogerogamer@gmail.com</p>
+              </div>
+              <div class="mb-2">
+                <p><img src="Imagenes/telefono.png" width="30" height="30">+56928186271</p>
+                <p><img src="Imagenes/telefono.png" width="30" height="30">+2228186271</p>
+              </div>
+        
+            </div>           
+          </div>
+    
+        </div>
+    </footer>
+    <br>
+    <br>
+    
+</body>
+</html>

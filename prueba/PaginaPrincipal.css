@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    margin: 30px 0px 30px 0px;
+}
+.opcionesmen{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.imgslider{
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+h5{
+   background-color: black;
+   align-content: center;
+}
+h2{
+    align-content: center;
+}
